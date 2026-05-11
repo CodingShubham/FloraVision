@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -6,10 +5,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-      'primary-bg':'#1B2316',
-    }
-  },
+      colors: {
+        'primary-bg': '#1b2316',
+      },
+      fontFamily: {
+        'indie': ['Indie Flower', 'cursive'],  // ← add this
+      },
+    },
   },
   plugins: [],
 }
