@@ -5,7 +5,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 export const Navbar=()=>{
 
     return(
-      <div className="text-white flex justify-between px-8 py-8 items-center ">
+      <div className="text-white flex justify-between px-8 py-8 items-center z-20 relative ">
 
 
     <div className="  flex items-center gap-2">
